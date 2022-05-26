@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ADVENTURE</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a  href="#"></a>Contact</li>
+        </ul>
+       <img src="/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcomming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>The Everest Base Camp trek on the south side, at an elevation of 5,364 m (17,598 ft), is one of the most popular trekking routes in the Himalayas and about 40,000 people per year make the trek there from Lukla Airport. Trekkers usually fly from Kathmandu to Lukla to save time and energy before beginning the trek to the base camp. However, trekking to Lukla is possible. There are no roads from Kathmandu to Lukla and as a result, the only method of transporting large and heavy goods is by plane.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>The Himalayas are iconic when it comes to India walking holidays. But there is also heavenly hiking to be had in the Western Ghats in Kerala and Tamil Nadu, the peaks of Ladakh and Kashmir, and around Central India too, such as in the Kanha National Park. India’s walking opportunities stretch way beyond the Himalayas.</p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+        <p>Travel as much as you can and travel alone.
+            Because when you travel alone you need people who can help you out and by doing doing this you really know how people are react on your problems in different region and place.</p>
+        <a href="" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMMING TOURS AND DISTINATIONS</h1>
+                <div class="line"></div>
+                <p>1)Ladakh Tour <br> 
+                    2) Himachal Tour  <br>
+                    3) Kerala Tour  <br>
+                    4) Goa Tour  <br>
+                    5) North East Tour  </p>
+                <a href="" class="ctn">Learn More</a>
+            </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="/img3.png" alt="">
+                        <img src="/img4.png" alt="">
+                        <img src="/img5.png" alt="">
+                        <img src="/img6.png" alt="">
+
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Designed And Developed By Parth Gosavi</p>
+        <p>Copyright 2020 Outdoor Adventure</p>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+</html>
